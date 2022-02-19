@@ -18,3 +18,6 @@ console.log(newList)
 /* outras formas:
 if (number % 2 === 0 && number % 5 === 0 ) return true
 else return false */
+
+
+//teste//

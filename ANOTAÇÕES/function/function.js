@@ -5,3 +5,5 @@ function nameQualquer() {
 }
 
 nameQualquer() //usa-se para chamar a fnunção, posso chamar quantas vezes eu quiser
+
+//teste//

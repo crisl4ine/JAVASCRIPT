@@ -7,3 +7,7 @@ function sum (number1, number2){  //sum() pode ter varios parametros, e pode nã
 
 sum (2,3) //invoca a função
 
+
+
+
+//teste//

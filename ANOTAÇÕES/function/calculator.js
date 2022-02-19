@@ -32,3 +32,7 @@ const calculator = (Number1, Number2, operation) => {
 }
 
 console.log(calculator(987,258,'/'))
+
+
+
+//teste//

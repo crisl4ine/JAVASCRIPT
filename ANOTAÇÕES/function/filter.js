@@ -38,3 +38,5 @@ const newStudentList = students.filter (student =>{
 
 
 console.log(newStudentList)
+
+//teste1//

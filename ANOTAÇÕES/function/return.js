@@ -14,3 +14,5 @@ console.log(`o primeiro número é ${firstNumber}`);
 console.log(`o primeiro número é ${seccondNumber}`);
 
 console.log(`A soma dos dois é ${sum(firstNumber, seccondNumber)}`);
+
+//teste//

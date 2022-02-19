@@ -9,3 +9,6 @@ const companies = [
 const allMarketValue = companies.reduce( ((acc, current) =>  acc + current.marketValue), 0)
 
 console.log(allMarketValue)  
+
+
+//teste//

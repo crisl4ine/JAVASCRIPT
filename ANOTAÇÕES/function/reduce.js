@@ -16,3 +16,5 @@ const sum = list.reduce( (acc, current) => {
 console.log(sum)
 
 //vai acumulando o valor, e vai somando, ou retornando o valor que estamos pedindo.//
+
+//teste//
