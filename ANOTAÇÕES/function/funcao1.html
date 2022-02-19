@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> js3_funcao - Somatória com entrada de dados por formulário </title>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<h3> Somatória de dois números inteiros com conversão de dados </h3>
+
+<!-- definição da área e dos elementos de um formulário -->
+
+<form name="MeuFormulario" action=" " method="post">
+Entre com o valor 1: <input type="text" name="f_n1" /> <p></p>
+Entre com o valor 2: <input type"text" name="f_n2" /> <p></p>
+
+<input type="button" name="btn_somar" value="Somar" onclick="soma()" />
+<input type="reset" name="btn_apagar" value="Apagar" />
+</form>
+
+<!-- Final da área do formulário -->
+
+<!-- Definição da linguagem Javascript -->
+
+<script>
+
+/*objetivo: desenvolver um programa que faça a soma de 2 numeros inteiros.
+Aplique a conversão de valores com parsInt e apresente o resultado da soma entre eles.
+Entrada de dados por formulário */
+
+/*Definição das variaveis*/
+
+var js_n1;
+var js_n2;
+var js_soma;
+
+/*Definição da função soma() para capturar dados, processar a somatória e apresentar o resultado*/
+
+function soma() // conjunto de comandos agrupados com a finalidade de processar uma determinada tarefa //
+
+{ 
+
+//Entrada de dados//
+
+js_n1 = parseInt (document.MeuFormulario.f_n1.value);
+js_n2 = parseInt (document.MeuFormulario.f_n2.value);
+
+/*Processamento de dados */
+
+js_soma = js_n1 + js_n2;
+
+//Saída de dados //
+
+window.alert('Resultado da Somatória =' + js_soma);
+ }
+
+/*toString transforma um valor numérico en uma string /*
+
+
+
+
+
+
+ </script>
+ 
+ </body>
+ </html>
+
+</html>
+
+</html>
+

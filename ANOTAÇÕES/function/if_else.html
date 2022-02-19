@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>if.html </title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h3> Apresentação de valores em ordem crescente </h3>
+<script>
+/* Objetivo: ler dois valores, independentemente da ordem em que foram digitados, e apresentá-los em ordem crescente.
+nesse caso usaremos a decidao condicional composta if..else  */
+
+var js_n1;
+var js_n2;
+
+/*Entrada de dados*/
+
+js_n1 = parseInt(window.prompt ("informe o primeiro número:" +"00"));
+js_n2 = parseInt(window.prompt("informe o segundo número:"+"00"));
+
+/*Saida de dados sem classificação*/
+
+document.write("número 1 digitado = " + js_n1);
+
+document.write("<br> número 2 digitado = " + js_n2);
+
+/*saida de dados com classificação por decisão condicional composta if..else*/
+
+if (js_n1 < js_n2){
+     document.write("<p><b>Classificação em ordem crescente:</b>" + js_n1 + " e " + js_n2);
+}
+
+else {
+     document.write("<p><b>Classificação em ordem crescente:</b>" + js_n2 + " e " + js_n1);
+}
+
+
+
+</script>
+</body>
+</html>
+
+/*O primeiro if é quem determina se os demais ifs serão testados ou não e condicionados.
+caso contrário segue para a próxima instrução, após o fechamento do if.
+
+*/
+
+
+

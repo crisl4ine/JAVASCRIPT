@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OperadorTernario</title>
+<meta charset="UTF-8"/>
+</head>
+
+<body>
+Objetivo: Exemplos práticos de aplicações com operador ternário ?:, operadores relacionais e expressao aritmética.</p>
+<p>Utilização das sintaxe: (< condição>) ? < expressao para resultados verdadeiros> : < expressão para resultados falsos>. </p> 
+
+<script>
+//Definição das variáveis//
+
+document.write("<p>=========================================</p>");
+document.write("<p>Definição e atribuição das variáveis:</p>");
+  document.write("var js_num = <b>30</b>; (js_num recebe o valor 30)");
+var js_num = 30;
+  /*Aplicação de operador ternário utilizando operadores relacionais*/
+document.write("<p>=========================================</p>");
+  document.write("<p>Operador Ternário <b>(? :)</b> com Operadores Relacionais ( ==, !=, <):</p>");
+
+document.write("<p>js_num <b>==</b> 20 <b>?</b> 'SIM' <b>:</b> 'NÃO' - Resposta => ");
+ ((js_num == 20) ? document.write("<b>SIM</b>") : document.write("<b>NÃO</b>"));
+ 
+  document.write("<p>js_num != 20 ? 'SIM' : 'NÃO' - Resposta => ");
+((js_num != 20) ? document.write("<b>SIM</b>") : document.write("<b>Não</b>"));
+
+document.write("<p>js_num < 50 ? 'SIM' : 'NÃO' - Resposta => ");
+((js_num < 50 ) ? document.write("<b>SIM</b>") : document.write("<b>NÃO</b>"));
+
+/*Aplicação de operador ternário utilizando expressão aritmética e operador relacional*/
+
+document.write("<p>===========================================");
+document.write("<p>Operador Ternário com Expressão Aritmética:");
+
+document.write("<p>(js_num - 20) == 0 ? 'Sim' : 'Não' - Resposta => ");
+((js_num - 20)== 0) ? document.write("<b>Sim + js_num</b>") : document.write("<b>NÃO</b>");
+
+</script>
+</body>
+</html>
